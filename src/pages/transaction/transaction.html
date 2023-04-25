@@ -31,7 +31,7 @@
                         <h2>{{'Request Send' | translate}}</h2>
                         <h1>{{list.gift_title | titlecase}}</h1>
                         <p> {{'Req Id' | translate}} : {{list.invoice_id }}</p>
-                        <p> {{'Req Type' | translate}} : {{list.payment_type }}</p>
+                        <p> {{'Req Type' | translate}} : {{list.redeem_type }}</p>
 
                         <span *ngIf="list.gift_status=='Reject' && receive_status != ''">{{list.reject_reason | titlecase}}</span>
                     </div>

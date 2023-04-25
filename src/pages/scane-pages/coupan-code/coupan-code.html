@@ -1,14 +1,14 @@
 
 <ion-header>
   <ion-navbar>
-    <ion-title>Enter Coupon Code</ion-title>
+    <ion-title>{{'Enter Coupon Code' | translate}}</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <div class="bg-margin">
     <div class="paragraph mt15">
-      <p>Please enter coupon code here, to get your points</p>
+      <p>{{'Please enter coupon code here, to get your points' | translate}}</p>
     </div>
     <div class="nrml-input">
       <input type="text" placeholder="Coupon Code" [(ngModel)]="data.code" #code="ngModel" name="code">
@@ -16,11 +16,11 @@
     <div class="coupon-error" *ngIf="!data.code && flag==1">
       <p>Required</p>
     </div>
-    <button class="cs-btn btn-radius-four" (click)="submit(data.code)"><span>Submit</span></button>
+    <button class="cs-btn btn-radius-four" (click)="submit(data.code)"><span>{{'Submit' | translate}}</span></button>
     <!-- mt50 -->
     <div class="scane-img" >
       <img src="assets/imgs/scane.png" (click)="scan()">
-      <p>Tap on scan icon to scan your coupon </p>
+      <p>{{'Tap on scan icon to scan your coupon' | translate}}</p>
     </div>
 </div>
 </ion-content>

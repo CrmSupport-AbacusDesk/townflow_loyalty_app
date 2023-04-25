@@ -247,8 +247,8 @@
 
                         <div *ngIf="data.document_type=='PanCard'" [ngClass]="{'error':f.submitted && document_no?.invalid}">
                             <ion-item class="cs-input mb0 mt10" >
-                                <ion-label floating>{{'Pan Card Number' | translate}}*</ion-label>
-                                <ion-input type="text" name="document_no" #document_no="ngModel" [(ngModel)]="data.document_no" maxlength="10" minlength="10" pattern="[A-z]{5}[0-9]{4}[A-z]{1}"  required></ion-input>
+                                <ion-label floating>{{'Pan Card Number' | translate}}</ion-label>
+                                <ion-input type="text" name="document_no" #document_no="ngModel" [(ngModel)]="data.document_no" maxlength="10" minlength="10" pattern="[A-z]{5}[0-9]{4}[A-z]{1}"  ></ion-input>
                             </ion-item>
                             <div *ngIf="document_no.errors?.pattern" class="invalid-feedback">
                                 <div>{{'Invaild Pan Card Number' | translate}}</div>

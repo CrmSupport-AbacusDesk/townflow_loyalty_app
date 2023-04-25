@@ -21,7 +21,6 @@
       "Select Request Type":"अनुरोध प्रकार चुनें",
       "Image":"छवि",
       "Coupon Code Manual Enter":"कूपन कोड मैनुअल दर्ज करें",
-
       "Alert":"चेतावनी",
       "Success":"पूर्ण",
       "Please wait...":"कृपया प्रतीक्षा करें...",
@@ -49,7 +48,8 @@
       "Pan Card":"पैन कार्ड",
       "Upload Document":"डाक्यमेन्ट अपलोड करें",
       "Voter Card":"वोटर कार्ड",
-      "Aadhaar Number":"आधार नंबर",
+      "Aadhar Number":"आधार नंबर",
+      "Aadhar Card":"आधार कार्ड",
       "Pan Card Number":"पैन कार्ड नंबर",
       "Voter Card Number":"वोटर कार्ड नंबर",
       "Dealer Information":"डीलर जानकारी",
@@ -67,13 +67,10 @@
 	"Estimate Delivery Time":"प्रसव के समय का अनुमान लगाएं",
 	"Shipping Information":"शिपिंग सूचना",
 	"Specification":"विनिर्देश",
-
       "Google Pay":"गूगल पे",
       "Points Received Type":"अंक प्राप्त प्रकार",
       "PhonePe":"phonepe",
       "Paytm":"Paytm",
-
-
       "Pdf Catalogues":"पीडीएफ कैटलॉग",
       "Balance Points":"शेष अंक",
       "Product Detail":"प्राडक्ट डिटेल",
@@ -230,8 +227,9 @@
       "Whatsapp No":"व्हाट्सएप नंबर",
       "Dealer Information":"डीलर जानकारी",
       "UPI ID":"यूपीआई आईडी",
+      "Update Successfully":"सफलतापूर्वक अपडेट करें",
       "This Feild is required":"यह फ़ील्ड आवश्यक है",
-
+      "PanCard":"पण कार्ड",
       "Survey":"सर्वे",
       "Req. ID":"अनुरोध। पहचान",
       "Redeem Status":"रिडीम स्थिति",
@@ -248,7 +246,22 @@
       "Bank Name":"बैंक का नाम",
       "Account No.":"खाता नंबर",
       "IFSC Code":"आईएफएससी कोड",
-      "":"",
-      "":""
+      "Bank Information":"बैंक संबंधी जानकारी",
+      "Other Points":"अन्य बिंदु",
+      "Summary":"सारांश",
+      "Bonus Points":"बोनस अंक",
+      "Account No":"खाता नंबर",
+      "Coupon Code":"कूपन कोड",
+      "Welcome Points":"स्वागत अंक",
+      "Req Type":"अनुरोध का प्रकार",
+      "Logout!":"लॉग आउट!",
+      "Redeem Request Detail":"अनुरोध विवरण रिडीम करें",
+      "Payment Status":"भुगतान की स्थिति",
+      "Transfer Date":"हस्तांतरण की तारीख",
+      "Transfer Remark":"स्थानांतरण टिप्पणी",
+      "Tap on scan icon to scan your coupon":"अपने कूपन को स्कैन करने के लिए स्कैन आइकन पर टैप करें",
+      "Please enter coupon code here, to get your points":"अपने अंक प्राप्त करने के लिए कृपया यहां कूपन कोड दर्ज करें"
+     
+     
 
 }
