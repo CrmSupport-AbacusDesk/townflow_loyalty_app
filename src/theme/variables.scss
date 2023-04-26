@@ -5362,3 +5362,10 @@ page-point-list ion-item ion-label .right-block h2 {
    
     height: 100px !important;
 }
+
+.clcsd ul.collapsible li.active .collapsible-header p, .clcsd ul.collapsible li.active .collapsible-header .counter {
+    color: #000 !important;
+}
+.clcsd ul.collapsible li.active .collapsible-header {
+    background: #fff !important;
+}

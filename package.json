@@ -106,8 +106,8 @@
       "cordova-plugin-actionsheet": {},
       "cordova-plugin-camera": {},
       "phonegap-plugin-push": {},
-      "cordova-plugin-x-socialsharing": {},
-      "cordova-plugin-androidx-adapter": {}
+      "cordova-plugin-androidx-adapter": {},
+      "cordova-plugin-x-socialsharing": {}
     },
     "platforms": [
       "browser",
