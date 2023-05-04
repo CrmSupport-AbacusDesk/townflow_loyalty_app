@@ -251,7 +251,7 @@
                                 <ion-input type="text" name="document_no" #document_no="ngModel" [(ngModel)]="data.document_no" maxlength="10" minlength="10" pattern="[A-z]{5}[0-9]{4}[A-z]{1}"  ></ion-input>
                             </ion-item>
                             <div *ngIf="document_no.errors?.pattern" class="invalid-feedback">
-                                <div>{{'Invaild Pan Card Number' | translate}}</div>
+                                <div>{{'Invalid Pan Card Number' | translate}}</div>
                             </div>
                         </div>
 
@@ -259,10 +259,10 @@
                         <ion-item class="cs-input mb0 mt10" >
                             <ion-label floating>{{'Voter Card Number' | translate}}</ion-label>
                             <ion-input type="text" name="document_no" #document_no="ngModel"
-                                [(ngModel)]="data.document_no" maxlength="11" minlength="11" pattern="[A-Z]{3}[0-9]{7}"></ion-input>
+                                [(ngModel)]="data.document_no" maxlength="10" minlength="10" pattern="[A-Z]{3}[0-9]{7}"></ion-input>
                         </ion-item>
                         <div *ngIf="document_no.errors?.pattern" class="invalid-feedback">
-                            <div>{{'Invaild Voter Card Number' | translate}}</div>
+                            <div>{{'Invalid Voter Card Number' | translate}}</div>
                         </div>
                     </div>
 
